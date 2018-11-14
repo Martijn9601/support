@@ -1,0 +1,19 @@
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+main{
+	background-color: #00647F
+}
+
+.row{
+	width: 35%;
+	height: 100%;
+	margin:0 auto;
+	align-content: center;
+}
+
+.control-label{
+	color: white;
+}
