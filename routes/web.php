@@ -23,3 +23,5 @@ Route::get('new_ticket', 'TicketsController@create');
 Route::post('new_ticket', 'TicketsController@store');
 
 Route::get('my_tickets', 'TicketsController@userTickets');
+
+
