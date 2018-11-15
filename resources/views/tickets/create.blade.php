@@ -4,9 +4,9 @@
 
 @section('content')
 
-<link href="{{ asset('/css/cssform.css') }}" rel="stylesheet">
+<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
- <div class="row">
+<div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading">Open New Ticket</div>
