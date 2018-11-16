@@ -43,4 +43,14 @@ class TicketsController extends Controller
     	// $mailer->sendTicketInformation(Auth::user(), $ticket);
     	return redirect()->back()->with("status", "A ticket with ID #$ticket->ticket_id has been opened.");
     }
+
+    public function show($ticket_id)
+{
+    $ticket = Ticket::where('ticket_id', $ticket_id)->firstOrFail();
+
+    $category = $ticket->category;
+
+    return view('tickets.show', compact('ticket', 'category'));
+}
+
 }
