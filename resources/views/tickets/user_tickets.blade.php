@@ -2,6 +2,8 @@
 
 @section('title', 'My Tickets')
 
+<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+
 @section('content')
     <div class="row">
         <div class="col-md-10 col-md-offset-1">

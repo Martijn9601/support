@@ -36,7 +36,7 @@ class User extends Authenticatable
     }
     /**
      * 
-     * @param  
+     * @param  p
      */
     public static function getTicketOwner($user_id)
     {
